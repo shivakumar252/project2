@@ -1,0 +1,104 @@
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.nav-link-underline
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.height {
+    height: 100vh
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    /* background: blue */
+}
+.center-heading{
+    padding-top: 50px;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    color: yellow;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.center-para{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 0.8;
+}
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color:turquoise;
+    border-radius: 50%;
+    display: inline-block;
+  }
+ .fa-angle-left
+ {
+     margin-left: 400px!important;
+     margin-top: 65px;
+ }
+ .fa-angle-right{
+    margin-top: 65px;
+ }
